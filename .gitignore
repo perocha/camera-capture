@@ -22,3 +22,6 @@ Cargo.lock
 
 # VS code specific files
 .vscode/
+
+# Added by cargo
+/target

@@ -1,0 +1,11 @@
+[package]
+name = "camera-capture"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opencv = "0.63"        # For camera and image processing
+rumqttc = "0.12"       # For MQTT client communication
+base64 = "0.21"        # For encoding images in base64
+log = "0.4"            # For logging
+env_logger = "0.10"    # For environment-based logger
